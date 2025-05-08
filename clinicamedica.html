@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Atleta</title>
+    
+    <style> body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: #f8f9fa;
+    }
+    
+    header {
+        background-color: #dc3545;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    nav ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin: 0 15px;
+    }
+    
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    section {
+        padding: 20px;
+        margin: 10px;
+        background: white;
+        border-radius: 5px;
+        box-shadow: 0 0 5px #ccc;
+    }
+    
+    form input, form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    
+    button {
+        padding: 10px 20px;
+        background-color: #dc3545;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    
+    footer {
+        background-color: #343a40;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        margin-top: 20px;
+    }</style>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Clínica Atleta</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#especialidade">Especialidade</a></li>
+                <li><a href="#equipe">Equipe</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre a Clínica</h2>
+        <p>A Clínica Atleta oferece atendimento especializado em cardiologia, com tecnologia de ponta e uma equipe comprometida com o seu bem-estar.</p>
+    </section>
+
+    <section id="especialidade">
+        <h2>Especialidade: Cardiologia</h2>
+        <p>Diagnóstico e tratamento de doenças do coração, acompanhamento de pacientes com hipertensão, arritmias e insuficiência cardíaca.</p>
+        <ul>
+            <li>Exames de ecocardiograma</li>
+            <li>Teste ergométrico</li>
+            <li>Monitoramento de pressão arterial</li>
+        </ul>
+    </section>
+
+    <section id="equipe">
+        <h2>Nossa Equipe</h2>
+        <p>Dr. Pedro Silva - Cardiologista com 20 anos de experiência</p>
+        <p>Dra. Maria Oliveira - Especialista em arritmias cardíacas</p>
+    </section>
+
+    <section id="contato">
+        <h2>Fale Conosco</h2>
+        <form action="#" method="post">
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" required><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="5" required></textarea><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Clínica Atleta. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
